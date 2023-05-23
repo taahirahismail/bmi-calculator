@@ -18,7 +18,9 @@
             <label for="height">Height (cm): </label>
             <input type="number" id="height">
         </div>
-        <button onclick="calcBMI()">Calculate</button>
+        <div class="buttons">
+            <button onclick="calcBMI()">Calculate</button> <button onclick="refresh()">Clear</button>
+        </div>
         <div class="output">
             <label for="bmi"></label>
             <input type="text" id="bmi" readonly>

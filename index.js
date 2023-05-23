@@ -25,3 +25,6 @@ function calcBMI() {
     }
 }
 
+function refresh() {
+    window.location.reload();
+}
