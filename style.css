@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: rgb(241, 135, 153);
+}
+
+.bmi-calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: pink;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bmi-calc h2 {
+    padding: 10px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: pink;
+}
+
+.bmi-calc .inputs {
+    padding: 10px;
+}
+
+.bmi-calc .inputs input {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: ivory;
+    font-size: 15px;
+}
+
+.bmi-calc button {
+    padding: 10px;
+    margin: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.bmi-calc button:hover {
+    background: rgb(241, 135, 153);
+}
+
+.bmi-calc .output {
+    padding: 10px;
+}
+
+.bmi-calc .output input {
+    padding: 5px;
+    background: pink;
+    border: none;
+    font-size: 30px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}

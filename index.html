@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calc</title>
+    <title>BMI Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="bmi-calc" id="calc">
+        <h2>BMI Calculator!</h2>
+        <div class="inputs">
+            <label for="weight">Weight (kg): </label>
+            <input type="text" id="weight">
+        </div>
+        <div class="inputs">
+            <label for="height">Height (cm): </label>
+            <input type="text" id="height">
+        </div>
+        <button onclick="calcBMI()">Calculate</button>
+        <div class="output">
+            <label for="bmi"></label>
+            <input type="text" id="bmi" readonly>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 </body>
