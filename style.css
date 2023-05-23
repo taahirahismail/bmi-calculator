@@ -67,6 +67,7 @@ body {
 
 .bmi-calc .output input {
     padding: 5px;
+    width: 100%;
     background: pink;
     border: none;
     font-size: 30px;
